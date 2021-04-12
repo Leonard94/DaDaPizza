@@ -53,6 +53,29 @@
 
 <br>
 
+
+
+## 🔧 Установка
+1. Склонируйте репозиторий
+```
+git clone https://github.com/Leonard94/DaDaPizza.git
+```
+
+2. Установить зависимости
+```
+npm install
+```
+3. Запустить проект
+```
+npm start
+```
+4. Готово!
+```
+Happy Hacking!
+```
+
+
+
 <p align='center'>
 <img src='http://vladkoleda.ru/img/gif/gif__react-pizza.gif'>
 </p>
