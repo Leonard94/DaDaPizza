@@ -1,0 +1,38 @@
+.button {
+    background: #eb4845;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background: #e82a26;
+}
+
+.button:active {}
+
+.link {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.cart {
+    color: white;
+}
+
+.items {
+    color: white;
+    position: relative;
+}
+
+.items:before {
+    content: '';
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 1px;
+    height: 15px;
+    margin: 0 10px;
+    background: white;
+}

@@ -1,0 +1,142 @@
+.cart {
+    padding: 100px 0;
+}
+
+.container {
+    max-width: 630px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: left;
+    font-size: 36px;
+    font-weight: 500;
+    margin-bottom: 50px;
+    color: #eb4845;
+}
+
+.price {
+    margin: 50px 0;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    align-items: flex-end;
+}
+
+.price span {
+    font-size: 24px;
+    color: #eb4845;
+    margin-left: 10px;
+}
+
+.row {
+    margin: 40px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button__prev, .button__next {
+    position: relative;
+    width: 230px;
+    height: 45px;
+    border-radius: 9999px;
+    display: block;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background 0.3s ease;
+}
+
+.row button {
+    background: rgba(0, 0, 0, 0);
+}
+
+.button__prev {
+    background: rgb(243, 243, 247);
+    color: rgb(92, 99, 112);
+}
+
+.button__next {
+    background: #eb4845;
+    color: white;
+}
+
+.button__next:after {
+    position: absolute;
+    content: '>';
+    color: rgb(225, 223, 223);
+    font-size: 30px;
+    font-weight: 300;
+    right: 20px;
+}
+
+.button__prev:before {
+    position: absolute;
+    content: '<';
+    color: rgb(150, 154, 162);
+    font-size: 30px;
+    font-weight: 300;
+    left: 20px;
+}
+
+.button__next:hover {
+    background: #e82a26;
+}
+
+.button__prev:hover {
+    background: rgb(223, 223, 225);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    line-height: 160%;
+}
+
+.body {
+    display: flex;
+    align-items: center;
+}
+.box {
+    width: 250px;
+    margin: 0 auto;
+}
+
+.text {
+    line-height: 160%;
+    color: #444444;
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.box img {
+    width: 100%;
+}
+
+.button__menu {
+    background: rgba(0, 0, 0, 0);
+    margin: 50px 0;
+}
+
+.button__menu a {
+    position: relative;
+    width: 230px;
+    height: 45px;
+    border-radius: 9999px;
+    display: block;
+    line-height: 45px;
+    font-weight: 500;
+    font-size: 16px;
+    transition: background 0.3s ease;
+    background: #eb4845;
+    color: white;
+}
+
+.button__menu a:hover {
+    background: #e82a26;
+}
+
+.button__menu a:active {
+    transform: scale(0.8);
+}
