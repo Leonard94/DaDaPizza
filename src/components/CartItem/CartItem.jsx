@@ -19,7 +19,7 @@ const CartItem = ({ id, name, title, size, totalPrice, totalCount, onRemoveItem,
         <div className={style.item}>
             <div className={style.left__side}>
                 <div className={style.img}>
-                    <img src={`http://leonardtest.ru/pizza/img/${name}.png`} alt={name} />
+                    <img src={`http://vladkoleda.ru/pizza/img/${name}.png`} alt={name} />
                 </div>
                 <div>
                     <div className={style.title}>
