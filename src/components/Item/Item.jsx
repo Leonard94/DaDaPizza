@@ -24,7 +24,7 @@ const Item = ({ name, title, composition, types, id, addItem }) => {
     return (
         <div className={style.body}>
             <div className={style.img}>
-                <img src={`http://leonardtest.ru/pizza/img/${name}.png`} alt={name} />
+                <img src={`http://vladkoleda.ru/pizza/img/${name}.png`} alt={name} />
             </div>
             <div className={style.title}>
                 {title}
